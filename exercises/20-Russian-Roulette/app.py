@@ -9,8 +9,8 @@ def spin_chamber():
 #  DON'T CHANGE THE CODE ABOVE
 def fire_gun():
 	# YOUR CODE HERE
-
-
+    num = random.randint(1,6)
+    print(str(num))
 
 
 print(fire_gun())
